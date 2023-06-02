@@ -1,0 +1,21 @@
+#div-medio {
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+  }
+ #div-externo {
+    background-color: blue;
+ }
+ #div-medio {
+    background-color: aquamarine;
+ }
+ #div-interno {
+    background-color: brown;
+ }
+
+ #div-externo {
+    width: 460px; /* 400px (ancho) + 2 * 30px (margen) */
+    height: 260px; /* 200px (alto) + 2 * 30px (margen) */
+  }
+  
